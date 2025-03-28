@@ -42,7 +42,7 @@ public class CreateAccountUseCaseMapper {
                                         .accountId(accountDto.getAccountId())
                                         .accountType(accountDto.getAccountType())
                                         .ownerId(accountDto.getOwnerId())
-                                        .currency(accountDto.getAccountId())
+                                        .currency(accountDto.getCurrency())
                                         .status(accountDto.getStatus())
                                         .createdDateTime(accountDto.getCreatedDateTime())
                                         .build()
